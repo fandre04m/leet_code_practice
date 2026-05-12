@@ -1,0 +1,156 @@
+1. Custom String Sort
+
+Given a list of strings, sort the list using these rules:
+
+Shorter strings come first.
+If two strings have the same length, sort them alphabetically.
+
+Return the sorted list.
+
+Example:
+
+Input:
+["abc", "a", "ab", "aaa", "b"]
+
+Output:
+["a", "b", "ab", "aaa", "abc"]
+
+
+2. Alternate Character Case
+
+Given a string s, convert only alphabetical characters in sequential alternating format:
+
+first alphabetical character -> uppercase
+second alphabetical character -> lowercase
+third alphabetical character -> uppercase
+etc.
+
+Non-alphabetical characters remain unchanged and do not affect the sequence.
+
+Example:
+
+Input:
+"hello world!"
+
+Output:
+"HeLlO wOrLd!"
+
+Example 2:
+
+Input:
+"a1b2c3"
+
+Output:
+"A1b2C3"
+
+
+
+3. Reverse Bidimensional Matrix
+
+Given a bidimensional matrix, reverse each row independently.
+
+Return the modified matrix.
+
+Example:
+
+Input:
+[
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+Output:
+[
+    [3, 2, 1],
+    [6, 5, 4],
+    [9, 8, 7]
+]
+
+
+
+4. Rotate Alphabetical Characters
+
+Given a string s and an integer times, rotate each alphabetical character forward in the alphabet by times.
+
+Preserve uppercase/lowercase.
+Wrap around alphabetically.
+Non-alphabetical characters remain unchanged.
+
+Example:
+
+Input:
+"abc", 3
+
+Output:
+"def"
+
+Example 2:
+
+Input:
+"xyz", 2
+
+Output:
+"zab"
+
+
+
+5. Count Sequential Numeric Pairs
+
+Given a string s, count how many times two consecutive characters are numeric and sequential in increasing order.
+
+Example:
+
+Input:
+"1234"
+
+Output:
+3
+
+Explanation:
+
+1 -> 2
+2 -> 3
+3 -> 4
+
+Example 2:
+
+Input:
+"1320"
+
+Output:
+0
+
+Example 3:
+
+Input:
+"12a12"
+
+Output:
+2
+
+
+
+6. Merge Two Sorted Lists
+
+Given two sorted integer lists, merge them into a single sorted list.
+
+Return the merged list.
+
+Example:
+
+Input:
+lst1 = [1, 3, 5]
+lst2 = [2, 4, 6]
+
+Output:
+[1, 2, 3, 4, 5, 6]
+
+Example 2:
+
+Input:
+lst1 = [1, 2, 5]
+lst2 = [2, 3, 4]
+
+Output:
+[1, 2, 2, 3, 4, 5]
