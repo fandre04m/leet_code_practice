@@ -21,15 +21,16 @@ Output:
 
 string = "hello world!"
 
+
 def alternator(string: str) -> str:
     counter = 0
     alt_str = ""
-    
+
     for ch in string:
         if ch.isalpha():
             if counter % 2 == 0:
                 alt_str += ch.upper()
-            else:   
+            else:
                 alt_str += ch.lower()
             counter += 1
         else:
