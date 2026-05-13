@@ -17,6 +17,7 @@ Output:
 
 lst = ["abc", "a", "bb", "ab", "aaa", "b"]
 
+
 def sort_strings(str_lst: list[str]) -> list[str]:
     return sorted(str_lst, key=lambda string: (len(string), string))
 
