@@ -1,7 +1,8 @@
 """
 5. Count Sequential Numeric Pairs
 
-Given a string s, count how many times two consecutive characters are numeric and sequential in increasing order.
+Given a string s, count how many times two consecutive characters are numeric
+    and sequential in increasing order.
 
 Example:
 
@@ -19,6 +20,7 @@ Explanation:
 """
 
 s = "1234ab4576589"
+
 
 def check_sequence(s: str) -> int:
     counter = 0

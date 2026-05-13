@@ -3,6 +3,7 @@
 s1 = "racecar"
 s2 = "carrace"
 
+
 def is_anagram_sort(s1: str, s2: str) -> bool:
     if len(s1) != len(s2):
         return False
@@ -18,9 +19,9 @@ def is_anagram_dict(s1: str, s2: str) -> bool:
         return False
 
     freq_1, freq_2 = {}, {}
-    for char in range(len(s1)):
-        freq_1[s1[char]] = 1 + freq_1.get(s1[char], 0)
-        freq_2[s2[char]] = 1 + freq_2.get(s2[char], 0)
+    for i in range(len(s1)):
+        freq_1[s1[i]] = 1 + freq_1.get(s1[i], 0)
+        freq_2[s2[i]] = 1 + freq_2.get(s2[i], 0)
     return freq_1 == freq_2
 
 

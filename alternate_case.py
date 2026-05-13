@@ -1,7 +1,8 @@
 """
 2. Alternate Character Case
 
-Given a string s, convert only alphabetical characters in sequential alternating format:
+Given a string s, convert only alphabetical characters in sequential
+    alternating format:
 
 first alphabetical character -> uppercase
 second alphabetical character -> lowercase
