@@ -19,12 +19,14 @@ def is_palindrome_pointers(s: str) -> bool:
     e = len(s) - 1
 
     while b < e:
-        while b < e and (not s[b].isalpha() or not s[b].isdigit()):
+        while b < e and not s[b].isalnum():
             b += 1
-        while e > b and (not s[e].isalpha() or not s[e].isdigit()):
+        while e > b and not s[e].isalnum():
             e -= 1
         if s[b].lower() != s[e].lower():
             return False
+        b += 1
+        e -= 1
     return True
 
 
