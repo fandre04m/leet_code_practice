@@ -1,7 +1,8 @@
-""" 
+"""
 4. Rotate Alphabetical Characters
 
-Given a string s and an integer times, rotate each alphabetical character forward in the alphabet by times.
+Given a string s and an integer times,
+    rotate each alphabetical character forward in the alphabet by times.
 
 Preserve uppercase/lowercase.
 Wrap around alphabetically.
