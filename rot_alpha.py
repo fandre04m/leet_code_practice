@@ -24,10 +24,10 @@ def rotate_char(s: str, times: int) -> str:
     for ch in s:
         if ch.islower():
             base = ord("a")
-            new_str += chr((ord(ch) - base + times) %26 + base)
+            new_str += chr((ord(ch) - base + times) % 26 + base)
         elif ch.isupper():
             base = ord("A")
-            new_str += chr((ord(ch) - base + times) %26 + base)
+            new_str += chr((ord(ch) - base + times) % 26 + base)
         else:
             new_str += ch
     return new_str
